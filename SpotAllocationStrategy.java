@@ -7,5 +7,4 @@
 
 public interface SpotAllocationStrategy {
     ParkingSpot findSpot(Vehicle vehicle, ParkingLot lot);
-    
 }

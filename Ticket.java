@@ -59,4 +59,7 @@ public class Ticket {
     public TicketStatus getTicketStatus(){
         return status;
     }
+    public void setStatus(TicketStatus status){
+        this.status = status;
+    }
 }
